@@ -1,0 +1,12 @@
+/META.yml
+/MYMETA.*
+/blib
+/pm_to_blib
+/Makefile
+/Makefile.old
+/cover_db
+/local
+/log
+/script/hypnotoad.pid
+*swp
+.DS_Store
