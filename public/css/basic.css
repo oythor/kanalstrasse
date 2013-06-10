@@ -1,0 +1,59 @@
+/*
+ * http://html5reset.org + minor modifications
+ */
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video, details, summary { margin: 0; padding: 0; border: 0; font-size: 100%; line-height: 1.6em; vertical-align: baseline; background: transparent; }
+article, aside, figure, footer, header, hgroup, nav, section, details, summary { display: block; }
+ul { list-style: none; }
+a { margin: 0; padding: 0; vertical-align: baseline; background: transparent; }
+abbr[title], dfn[title] { border-bottom: 1px dotted #000; cursor: help; }
+table { border-collapse: collapse; border-spacing: 0; }
+th { font-weight: bold; vertical-align: bottom; }
+td { font-weight: normal; vertical-align: top; }
+table { font-size: inherit; font: 100%; }
+.ie7 img { -ms-interpolation-mode: bicubic; }
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+body { background-color: #fefefe; font-size: 14px; font-family: @fontFamily; }
+body, select, input, textarea { color: #333; }
+a { color: #35c; }
+a:hover { color: #78b; }
+
+h1, h2, h3 { color: #111; }
+h1 { font-size: 2.4em; }
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.2em; }
+section { padding: 20px 0; }
+
+html, body { height: 100%; }
+div.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -160px;
+  width: 770px;
+  margin: 30px auto;
+}
+footer {
+  height: 160px;
+  background: #333;
+  color: #999;
+  clear: both;
+  padding: 30px;
+}
+footer ul {
+  width: 770px;
+  margin: 0px auto;
+}
+footer a {
+  color: #aaa;
+}
+
+header { border-bottom: 3px solid #67a; }
+header a { color: #67a; text-decoration: none; }
+header a:hover { color: #67a; }
+
+@media (max-width: 800px) {
+  div.wrapper { width: 100%; margin: 30px; }
+}

@@ -1,0 +1,104 @@
+<!doctype html>
+<!--[if IE 7 ]><html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8 ie-lt10 ie-lt9 no-js" lang="en"><![endif]-->
+<!--[if IE 9 ]><html class="ie ie9 ie-lt10 no-js" lang="en"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head id="www-kanalstrasse-com" data-template-set="html5-reset">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Kanalstrasse.com</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/basic.css" type="text/css">
+  <meta property="og:title" content="Kanalstrasse" />
+  <meta property="og:description" content="" />
+  <meta property="og:url" content="http://kanalstrasse.com" />
+  <meta property="og:image" content="http://kanalstrasse.com/image/kanalstrasse-og.png" />
+</head>
+
+<body>
+<div class="wrapper">
+  <header id="header">
+    <h1><a href="//kanalstrasse.com">Kanalstrasse</a></h1>
+  </header>
+  <section class="row">
+    <h2>Documentaries</h2>
+    <ol>
+      <li>
+        <a href="http://www.youtube.com/watch?v=OlY5v2QGmVk">Searching for Jesse Fuxing - How to meet people (2012)</a>,
+        producer, director and story.
+      </li>
+      <li>
+        <a href="http://www.youtube.com/watch?v=1eJnP_c1rdw">Börje's Colombia, TV4 Fakta (2011)</a>,
+        producer, director and story.
+      </li>
+    </ol>
+  </section>
+  <section class="row">
+    <h2>Shortfilms</h2>
+    <ol>
+      <li>
+        Of your wounds (2012), Executive producer for
+        <a href="http://www.imdb.com/name/nm4289460/">Nicola Piovesan</a>.
+      </li>
+      <li>
+        The Keeper (in production), producer, director and script
+      </li>
+      <li>
+        Working title: <a href="http://www.imdb.com/title/tt2402667/">Pirates of the Atlantic</a> (2009),
+        producer, director and script.
+      </li>
+      <li>
+        The one man show (2008), director and script.
+      </li>
+      <li>
+        Manliga känslor (2008), director and script.
+      </li>
+      <li>
+        Björns jul (2007), director and script.
+      </li>
+    </ol>
+  </section>
+  <section class="row">
+    <h2>Screenplays</h2>
+    <ol>
+      <li>
+        Finn finds himself (2011) for producer <a href="http://www.imdb.com/name/nm1808776/">Jasper Bazuin</a>.
+      </li>
+      <li>
+        Daniel blir cool (2011).
+      </li>
+      <li>
+        <a href="https://www.youtube.com/watch?v=qPtCd2R02Sw">Last days of Eden</a> (2009) with
+        <a href="http://www.imdb.com/name/nm3736022/">Titus Paar</a>.
+      </li>
+      <li>
+        Grandma´s a punkrocker (2008) with <a href="http://www.imdb.com/name/nm3736022/">Titus Paar</a>,
+        for producer <a href="http://www.imdb.com/name/nm0115379/">Debbie Brubaker</a>.
+      </li>
+    </ol>
+  </section>
+  <section class="row">
+    <h2>Shortfilm scripts</h2>
+    <ol>
+      <li>End game (2011), for Örebro University</li>
+      <li>Cabin fever (2010)</li>
+      <li>Skavlan (2009)</li>
+    </ol>
+  </section>
+</div>
+<footer>
+  <ul>
+    <li>öystein thorsen</li>
+    <li>malgräva 506</li>
+    <li>715 94 odensbacken</li>
+    <li><a href="mailto:oystho@gmail.com">oystein@kanalstrasse.com</a></li>
+    <li>phone: +46 73434 6292</li>
+  </ul>
+</footer>
+</body>
+
+</html>
+
+
+
+ 
