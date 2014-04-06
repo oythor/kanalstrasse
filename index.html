@@ -1,104 +1,151 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Kanalstrasse.com</title>
-    <link rel="stylesheet" href="stylesheets/kanalstrasse.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/kanalstrasse.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  </head>
-  <body>
-    <div class="wrapper">
-      <section>
-        <div id="title">
-          <h1>Kanalstrasse</h1>
-          <hr>
-        </div>
-        <h2>Documentaries</h2>
-        <ul>
-          <li>
-            <a href="http://www.youtube.com/watch?v=OlY5v2QGmVk">Searching for Jesse Fuxing - How to meet people (2012)</a>,
-            producer, director and story.
-          </li>
-          <li>
-            <a href="http://www.youtube.com/watch?v=1eJnP_c1rdw">Börje's Colombia, TV4 Fakta (2011)</a>,
-            producer, director and story.
-          </li>
-        </ul>
-        <h2>Shortfilms</h2>
-        <ul>
-          <li>
-            Of your wounds (2012), Executive producer for
-            <a href="http://www.imdb.com/name/nm4289460/">Nicola Piovesan</a>.
-          </li>
-          <li>
-            The Keeper (in production), producer, director and script
-          </li>
-          <li>
-            Working title: <a href="http://www.imdb.com/title/tt2402667/">Pirates of the Atlantic</a> (2009),
-            producer, director and script.
-          </li>
-          <li>
-            The one man show (2008), director and script.
-          </li>
-          <li>
-            Manliga känslor (2008), director and script.
-          </li>
-          <li>
-            Björns jul (2007), director and script.
-          </li>
-        </ul>
-        <h2>Screenplays</h2>
-        <ul>
-          <li>
-            Finn finds himself (2011) for producer <a href="http://www.imdb.com/name/nm1808776/">Jasper Bazuin</a>.
-          </li>
-          <li>
-            Daniel blir cool (2011).
-          </li>
-          <li>
-            <a href="https://www.youtube.com/watch?v=qPtCd2R02Sw">Last days of Eden</a> (2009) with
-            <a href="http://www.imdb.com/name/nm3736022/">Titus Paar</a>.
-          </li>
-          <li>
-            Grandma´s a punkrocker (2008) with <a href="http://www.imdb.com/name/nm3736022/">Titus Paar</a>,
-            for producer <a href="http://www.imdb.com/name/nm0115379/">Debbie Brubaker</a>.
-          </li>
-        </ul>
-        <h2>Shortfilm scripts</h2>
-        <ul>
-          <li>End game (2011), for Örebro University</li>
-          <li>Cabin fever (2010)</li>
-          <li>Skavlan (2009)</li>
-        </ul>
-        <footer>
-          <hr>
-          <ul>
-            <li>öystein thorsen</li>
-            <li>malgräva 506</li>
-            <li>715 94 odensbacken</li>
-            <li><a href="mailto:oystein@kanalstrasse.com">oystein@kanalstrasse.com</a></li>
-            <li>phone: +46 73434 6292</li>
-          </ul>
-        </footer>
-      </section>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <title>Kanalstrasse.com</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="stylesheets/kanalstrasse.css">
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="javascripts/jquery.min.js"></script>
+  <script src="javascripts/kanalstrasse.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div id="header">
+        <h1>Kanalstrasse</h1>
+      </div>
+      <div class="about">
+        <p>
+          Independent production company Kanalstrasse was established 2008.
+          From the beginning there was no particular plan, that's probably why I have been part of projects I could never imagine.
+        </p>
+      </div>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-41680531-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
 
-  </body>
+    <div class="row" id="menu">
+      <a href="#portfolio">Portfolio</a>
+      <a href="http://www.imdb.com/name/nm4452446">IMDB</a>
+      <a href="https://www.youtube.com/user/KanalstrasseMKB">YouTube</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div id="rotating_images_container">
+      <div id="rotating_images" data-delay="4000">
+        <div class="item">
+          <h1>Börje's Colombia</h1>
+          <img src="./images/header/borje_1024.jpg" alt="Börje's Colombia">
+        </div>
+        <div class="item">
+          <h1>Searching for Jesse Fuxing - how to meet people</h1>
+          <img src="./images/header/jesse_1024.jpg" alt="Searching for Jesse Fuxing - how to meet people">
+        </div>
+        <div class="item">
+          <h1>Working title: Pirates of the Atlantic</h1>
+          <img src="./images/header/working_title_1024.jpg" alt="Working title: Pirates of the Atlantic">
+        </div>
+        <div class="item">
+          <h1>Of Your Wounds</h1>
+          <img src="./images/header/of_your_wounds_1024.jpg" alt="Of Your Wounds">
+        </div>
+        <div class="item">
+          <h1>The Keeper</h1>
+          <img src="./images/header/the_keeper_1024.jpg" alt="The Keeper">
+        </div>
+        <div class="navigation">
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="portfolio">
+      <h1>Portfolio</h1>
+      <h2>Documentaries</h2>
+      <ul>
+        <li>
+          <a href="http://www.youtube.com/watch?v=OlY5v2QGmVk">Searching for Jesse Fuxing - How to meet people (2012)</a>,
+          producer, director and story.
+        </li>
+        <li>
+          <a href="http://www.youtube.com/watch?v=1eJnP_c1rdw">Börje's Colombia, TV4 Fakta (2011)</a>,
+          producer, director and story.
+        </li>
+      </ul>
+      <h2>Shortfilms</h2>
+      <ul>
+        <li>
+          Of your wounds (2012), Executive producer for
+          <a href="http://www.imdb.com/name/nm4289460/">Nicola Piovesan</a>.
+        </li>
+        <li>
+          The Keeper (in production), producer, director and script
+        </li>
+        <li>
+          Working title: <a href="http://www.imdb.com/title/tt2402667/">Pirates of the Atlantic</a> (2009),
+          producer, director and script.
+        </li>
+        <li>
+          The one man show (2008), director and script.
+        </li>
+        <li>
+          Manliga känslor (2008), director and script.
+        </li>
+        <li>
+          Björns jul (2007), director and script.
+        </li>
+      </ul>
+      <h2>Screenplays</h2>
+      <ul>
+        <li>
+          Finn finds himself (2011) for producer <a href="http://www.imdb.com/name/nm1808776/">Jasper Bazuin</a>.
+        </li>
+        <li>
+          Daniel blir cool (2011).
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=qPtCd2R02Sw">Last days of Eden</a> (2009) with
+          <a href="http://www.imdb.com/name/nm3736022/">Titus Paar</a>.
+        </li>
+        <li>
+          Grandma´s a punkrocker (2008) with <a href="http://www.imdb.com/name/nm3736022/">Titus Paar</a>,
+          for producer <a href="http://www.imdb.com/name/nm0115379/">Debbie Brubaker</a>.
+        </li>
+      </ul>
+      <h2>Shortfilm scripts</h2>
+      <ul>
+        <li>End game (2011), for Örebro University</li>
+        <li>Cabin fever (2010)</li>
+        <li>Skavlan (2009)</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row" id="contact">
+    <h1>Contact</h1>
+    <dl>
+      <dt>Name:</dt>
+      <dd>Öystein thorsen</dd>
+      <dt>Address:</dt>
+      <dd>Malgräva 506 - 715 94 Odensbacken</dd>
+      <dt>Email:</dt>
+      <dd><a href="mailto:oystein@kanalstrasse.com">oystein@kanalstrasse.com</a></dd>
+      <dt>Phone:</dt>
+      <dd>+46 73434 6292</dd>
+    </dl>
+  </div>
+
+  <div class="row" id="copyright">
+    &copy; öystein thorsen 2014, powered by <a href="http://thorsen.pm">jhthorsen</a>.
+  </div>
+
+    <!--
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      try { var pageTracker = _gat._getTracker("UA-41680531-1"); pageTracker._trackPageview(); } catch(err) {}
+    </script>
+    -->
+</body>
 </html>
