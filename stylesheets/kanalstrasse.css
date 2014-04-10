@@ -75,7 +75,9 @@ p { margin: 2em 0; }
 #rotating_images .item h1 {
   text-shadow: -2px -2px 6px #000;
   color: #fff;
-  right: 20px;
+  right: 0;
+  margin: 0;
+  padding: 0 20px;
   position: absolute;
   bottom: 20px;
   text-align: right;
@@ -96,8 +98,15 @@ p { margin: 2em 0; }
 #copyright { font-size: 0.9em; }
 
 @media (max-width: 1024px) {
+  h1 { font-size: 1.8em; }
+  h2 { font-size: 1.4em; }
   .row { margin-left: 5px; margin-right: 5px; }
   #rotating_images, .row { width: auto; }
+  #rotating_images .item h1 { font-size: 1.4em; }
   #rotating_images img { width: 100%; }
   #contact { margin-bottom: 6em; }
+}
+
+@media (max-width: 400px) {
+  #rotating_images .item h1 { font-size: 1.2em; line-height: 1.1em; bottom: 5px; padding: 0 10px; }
 }
