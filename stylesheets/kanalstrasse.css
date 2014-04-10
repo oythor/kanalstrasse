@@ -83,8 +83,10 @@ p { margin: 2em 0; }
   text-align: right;
 }
 
+#rotating_images .item h1 a { color: #fff; text-decoration: none; }
+
 #portfolio dt { font-weight: bold; }
-#portfolio dd { margin-bottom: 0.8em; }
+#portfolio dd { margin: 0.8em 1em; }
 
 #contact { margin-bottom: 12em; }
 
@@ -96,6 +98,22 @@ p { margin: 2em 0; }
 
 #copyright, #copyright a { color: #555; text-decoration: none; }
 #copyright { font-size: 0.9em; }
+
+.goto { margin: 0.5em 0; overflow: hidden; }
+
+.goto a {
+  background: #ddd;
+  padding: 2px 4px;
+  font-size: 0.9em;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.goto a:hover {
+  color: #000;
+}
 
 @media (max-width: 1024px) {
   h1 { font-size: 1.8em; }
