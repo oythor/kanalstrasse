@@ -1,8 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Lora);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
 
 body {
   background: #eee url(../images/footer.jpg) 0 100% repeat-x;
-  font-family: Lora;
+  font-family: "Source Code Pro";
   font-size: 15px;
   line-height: 1.5em;
   margin: 0;
